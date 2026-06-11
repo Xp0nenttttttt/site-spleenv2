@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Mont;
+    src: url("font.otf") format("opentype");
+}
+
+body {
+    font-family: Mont, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#aredl {
+    font-size: 1.5em;
+    color: #ff9100;
+}
+
+#pointercrate {
+    font-size: 1.5em;
+
+}
